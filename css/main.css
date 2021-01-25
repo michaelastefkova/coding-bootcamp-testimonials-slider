@@ -1,0 +1,168 @@
+body{
+    font-family: 'Inter', sans-serif;
+    color: hsl(240, 38%, 20%);
+    height: 100vh;
+    width: 100vw;
+    padding: 5% 10%;
+    background-image: url(/images/pattern-curve.svg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position-x: left;
+    background-position-y: bottom;
+    
+}
+
+h3{
+    line-height: 3rem;
+}
+
+
+
+#testimonial-sliders{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-image: url(/images/pattern-bg.svg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position-x: right;
+    background-position-y: center;
+}
+
+#testimonials{
+    padding: 20% 0;
+    float: left;
+    position: relative;
+    left: 5%;
+    width: 55%;
+    height: 100%;
+    z-index: 1  ;
+    overflow: hidden;
+    background-image: url(/images/pattern-quotes.svg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    
+    background-position-y: center;
+    background-position: 5%  ;
+}
+
+#slider{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: right;
+    position: relative;
+    right: 5%;
+    width: 40%;
+    height: 100%;
+
+}
+
+/* Light font--color */
+.light{
+    color: hsl(240, 18%, 77%);
+}
+
+
+/* Thin font-weight */
+.thin{
+    font-weight: 300;
+}
+
+/* Lean font-weight */
+
+.lean{
+    font-weight: 500;
+}
+
+/* Strong font-weight */
+
+.strong{
+    font-weight: 700;
+}
+
+/* Container that includes all the */
+
+.comment-wrapper{
+    position: absolute;
+    opacity: 0;
+}
+
+.active{
+    position: relative;
+    opacity: 100%;
+}
+
+.picture{
+    position: relative;
+
+}
+
+.carousel-inner{
+    border-radius: 10px;
+    background-color: transparent;
+}
+
+.image{
+    border-radius: 10px;
+}
+
+.slider-container{
+    z-index: 2;
+    margin: 0 0 0 50px;
+    align-items: center;
+    position: relative;
+    bottom: 20px;
+    padding: 0 10px;
+    border-radius: 60px;
+    height: 50px;
+    width: 100px;
+    background-color: white;
+}
+
+
+
+.button{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 100%;
+    width: 40%;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.button:focus{
+    outline: none;
+}
+
+.prev{
+    float: left;
+}
+.next{
+    float: right;
+}
+
+
+.shadow{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.vert .carousel-item-next.carousel-item-left,
+.vert .carousel-item-prev.carousel-item-right {
+    -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+}
+
+.vert .carousel-item-next,
+.vert .active.carousel-item-right {
+    -webkit-transform: translate3d(0, 100%, 0);
+            transform: translate3d(0, 100% 0);
+}
+
+.vert .carousel-item-prev,
+.vert .active.carousel-item-left {
+-webkit-transform: translate3d(0,-100%, 0);
+        transform: translate3d(0,-100%, 0);
+}
