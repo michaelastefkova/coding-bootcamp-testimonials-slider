@@ -1,0 +1,60 @@
+@media (max-width: 1200px){
+    h5{
+        padding-right: 200px;
+    }
+    
+    #slider .image{
+        max-width: 370px;
+    }
+
+
+}
+@media (max-width: 900px){
+    h3{
+        text-align: center;
+        font-size: 24px;
+    }
+
+    h5{
+        text-align:center;
+        padding: 0;
+    }
+
+    #testimonial-sliders{
+        display: flexbox;
+        justify-content: center;
+        align-items: center;
+        padding: 0;        
+        background-position-y: top;
+        background-position-x: center;
+        background-size: 90%;
+    }
+
+    #testimonials{
+        width: 100%;
+
+    }
+
+    #commentsCarousel{
+        position: relative;
+        padding-bottom: 0;
+        top: 50%;
+        left: auto;
+        float: none;
+        width: 90%;
+        height: 50%;
+        
+    }
+
+    #slider{
+        right: 30%;
+        bottom: 25%;
+        float: none;
+        position: absolute;
+    }
+
+    .slider-container{
+        margin: 0 0 0 135px;
+    }
+
+}
